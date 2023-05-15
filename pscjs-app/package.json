@@ -1,0 +1,22 @@
+{
+  "name": "pscjs-app",
+  "version": "1.0.0",
+  "description": "server application for interactin with cdnjs api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "author": "Steven Wang, Kyle Vo, Dipali Makadia, Christopher Chau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "prompts": "^2.4.2",
+    "pscjs-module": "file:../pscjs-module",
+    "superagent": "^8.0.9",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

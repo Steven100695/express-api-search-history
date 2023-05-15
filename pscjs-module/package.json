@@ -1,0 +1,14 @@
+{
+  "name": "pscjs-module",
+  "version": "1.0.0",
+  "description": "module to interact with pscjs api",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Wang, Kyle Vo, Dipali Makadia, Christopher Chau",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
+}
