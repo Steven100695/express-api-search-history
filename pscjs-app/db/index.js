@@ -7,7 +7,7 @@ const config = require('../config.json');
  * @return {Object}     object containing functions
  */
 const mongo = () => {
-  const mongoURL = `mongodb+srv://${config.username}:${config.password}@cluster0.puiudsd.mongodb.net/${config.database_name}?retryWrites=true&w=majority`;
+  const mongoURL = ``;
   let db = null;
 
   async function connect() {
